@@ -4,6 +4,7 @@ import AppRouter from "./router/AppRouter";
 import { ToastContainer } from "react-toastify";
 import { BlogContextProvider } from "./context/BlogContextProvider";
 function App() {
+  console.log("hello")
   return (
     <div className="App">
       <AuthContextProvider>
